@@ -1,0 +1,2 @@
+ (prgm) "$MOLCAS"/bin/quater.exe executable
+ (file) QUATEINP "$WorkDir/$Project."Quater.Input rwi

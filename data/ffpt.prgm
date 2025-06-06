@@ -1,0 +1,3 @@
+ (prgm) "$MOLCAS"/bin/ffpt.exe executable
+ (file) FFPTINP "$WorkDir/$Project."Ffpt.Input rwi
+ (file) ONEINT "$WorkDir/$Project."OneInt rw*

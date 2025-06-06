@@ -1,0 +1,10 @@
+
+configuration info
+------------------
+Host name: slater (Linux)
+C Compiler ID: Intel
+C flags: -std=gnu99 -qopenmp
+Fortran Compiler ID: Intel
+Fortran flags: -fpp -i8 -r8 -heap-arrays -qopenmp
+Definitions: _MOLCAS_;_I8_;_LINUX_
+Parallel: OFF (GA=OFF)

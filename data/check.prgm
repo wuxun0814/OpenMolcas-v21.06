@@ -1,0 +1,3 @@
+ (prgm) "$MOLCAS"/bin/check.exe executable
+ (file) CHECKINP "$WorkDir/$Project."Check.Input rwi
+ (file) CHECKFILE "$WorkDir"/checkfile rw

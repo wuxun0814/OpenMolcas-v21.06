@@ -1,0 +1,22 @@
+ (prgm) "$MOLCAS"/bin/qmstat.exe executable
+ (file) QMSTAINP "$WorkDir/$Project."Qmstat.Input rwi
+ (file) ONEINT "$WorkDir/$Project."OneInt ro*
+ (file) WRUNFIL "$Molcas_SolvDir/$Molcas_Solvent."RunFile ro
+ (file) AVEORB "$WorkDir/$Project."AveOrb rw
+ (file) SOLORB "$Molcas_SolvDir/$Molcas_Solvent."ScfOrb ro
+ (file) TRAINT "$WorkDir/$Project."TraInt ro
+ (file) TRAONE "$WorkDir/$Project."TraOne ro
+ (file) MPPROP "$WorkDir/$Project."MpProp ro
+ (file) DIFFPR "$WorkDir/$Project."DiffPr ro
+ (file) RASSIM "$WorkDir/$Project."ToFile ro
+ (file) EIGV "$WorkDir/$Project."EigV ro
+ (file) TDMSCR "$WorkDir/$Project."TdmScr rw
+ (file) ADDON1 "$WorkDir/$Project."AddOn1 ro
+ (file) ADDON2 "$WorkDir/$Project."AddOn2 ro
+ (file) ADDON3 "$WorkDir/$Project."AddOn3 ro
+ (file) JOB "$WorkDir/$Project."Job ro*
+ (file) GAMORB "$WorkDir/$Project."GamO rw
+ (file) STFIL "$Molcas_OldDir/"startfil rw*
+ (file) SAFIL "$Molcas_OldDir/"sampfil rw*
+ (file) EXTRA "$WorkDir/$Project."SimEx rws*
+ (file) AVENUC "$WorkDir/$Project."FieldNuc rw

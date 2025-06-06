@@ -1,0 +1,14 @@
+ (prgm) "$MOLCAS/bin/gugaci.exe" executable
+ (file) GUGACINP "$WorkDir/$Project."Gugaci.Input roi
+ (file) CIDRT "$WorkDir/$Project."CiDrt ro
+ (file) TRAONE "$WorkDir/$Project."TraOne ro
+ (file) TRAINT "$WorkDir/$Project."TraInt ro
+ (file) ONEINT "$WorkDir/$Project."OneInt ro*
+ (file) CIINT "$WorkDir/$Project."FT14F01 rwp
+ (file) CILOOP "$WorkDir/$Project."FT15F01 rwp
+ (file) CIDIA "$WorkDir/$Project."FT16F01 rwp
+ (file) CIVEC "$WorkDir/$Project."CiVec rw
+ (file) CIDEN "$WorkDir/$Project."FT21F01 rw
+ (file) CITV1 "$WorkDir/$Project."FT25F01 rw*p
+ (file) CITV2 "$WorkDir/$Project."FT26F01 rw*p
+ (file) CIMO "$WorkDir/$Project."CiMO rw

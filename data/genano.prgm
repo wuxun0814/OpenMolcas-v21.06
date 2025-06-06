@@ -1,0 +1,5 @@
+ (prgm) "$MOLCAS"/bin/genano.exe executable
+ (file) GENANINP "$WorkDir/$Project."Genano.Input rwi
+ (file) PROJ "$WorkDir/$Project."Proj rw
+ (file) ANO "$WorkDir/$Project."Ano rws
+ (file) FIG "$WorkDir/$Project."Fig rws

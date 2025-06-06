@@ -1,0 +1,15 @@
+ (prgm) "$MOLCAS"/bin/ccsdt.exe executable
+ (file) CCSDTINP "$WorkDir/$Project."Ccsdt.Input rwi
+ (file) JOBIPH "$WorkDir/$Project$SubProject."JobIph ro
+ (file) TEMPDA "$WorkDir/"TEMPDA rw*p
+ (file) Temp "$WorkDir/"Temp rw*p
+ (file) T3VVVO "$WorkDir/$Project."T3VVVO rw
+ (file) TRAONE "$WorkDir/$Project."TraOne rw
+ (file) TRAINT "$WorkDir/$Project."TraInt rw*
+ (file) INPDAT "$WorkDir/$Project."InpDat rw
+ (file) INTA "$WorkDir/$Project."IntA rw*
+ (file) INTSTA "$WorkDir/$Project."IntSTA rw
+ (file) TEMP000 "$WorkDir/$Project."CCtemp rwp
+ (file) RSTART "$WorkDir/$Project."CCampl rw
+ (file) GEODATA "$GeoDir/GEODATA" rw.
+ (file) disp.energy "$GeoDir/$Project.disp.energy" rw.

@@ -1,0 +1,8 @@
+# molcas runtime environment
+OS='Linux-x86_64'
+PARALLEL='OFF'
+DEFMOLCASMEM='2048'
+DEFMOLCASDISK='20000'
+RUNSCRIPT='$program $input'
+RUNBINARY='$program'
+RUNBINARYSER='$program'

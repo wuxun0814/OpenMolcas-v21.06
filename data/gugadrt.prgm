@@ -1,0 +1,5 @@
+ (prgm) "$MOLCAS/bin/gugadrt.exe" executable
+ (file) GUGADINP "$WorkDir/$Project."Gugadrt.Input ro
+ (file) CIDRT "$WorkDir/$Project."CiDrt rw
+ (file) TRAONE "$WorkDir/$Project."TraOne rw
+ (file) CIMO "$WorkDir/$Project."CiMO rw

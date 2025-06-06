@@ -1,0 +1,14 @@
+ (prgm) "$MOLCAS/bin/espf.exe" executable
+ (file) ESPFINP "$WorkDir/$Project."Espf.Input rwi
+ (file) SEWARINP "$WorkDir/$Project."Seward.Input roi
+ (file) ONEINT "$WorkDir/$Project."OneInt rw*
+ (file) ESPF.DATA "$WorkDir/$Project."Espf.Data rw
+ (file) ESPF.EXTPOT "$WorkDir/$Project."Espf.ExtPot rw
+ (file) QMMM "$WorkDir/$Project."qmmm rw
+ (file) TINKER.XYZ "$WorkDir/$Project."xyz rw
+ (file) TINKER.KEY "$WorkDir/$Project."key rw
+ (file) TINKER.LOG "$WorkDir/$Project."Tinker.log rw
+ (file) GMX.XYZ "$WorkDir/$Project."gmx.xyz rw
+ (file) GMX.LOG "$WorkDir/$Project."gmx.log rw
+ (file) RYSRW "$MOLCAS"/data/rysrw ro
+ (file) ABDATA "$MOLCAS"/data/abdata ro

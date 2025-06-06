@@ -1,0 +1,6 @@
+ (prgm) "$MOLCAS"/bin/mpprop.exe executable
+ (file) MPPROINP "$WorkDir/$Project."Mpprop.Input rwi
+ (file) ONEINT "$WorkDir/$Project."OneInt ro*
+ (file) ONEINTP "$WorkDir/$Project."OneIntP ro*
+ (file) MPPROP "$WorkDir/$Project."MpProp rw
+ (file) DIFFPR "$WorkDir/$Project."DiffPr rw
